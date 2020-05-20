@@ -2,7 +2,7 @@
 const ReactDOMServer = require('react-dom/server')
 const React = require('react')
 const { Picker, NimblePicker } = require('../dist/index.js')
-const data = require('../data/all.json')
+const data = require('../data/apple.json')
 
 function testPicker() {
   const element = React.createElement(Picker)

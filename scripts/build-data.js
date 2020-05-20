@@ -1,7 +1,7 @@
 const build = require('./build')
 const sets = ['apple', 'facebook', 'google', 'twitter']
 
-build({ output: 'data/all.json' })
+build({ output: 'data/apple.json' })
 
 sets.forEach((set) => {
   build({

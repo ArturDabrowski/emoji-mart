@@ -18,7 +18,7 @@ import {
   NimbleEmojiIndex,
   getEmojiDataFromNative,
 } from '../dist'
-import data from '../data/all.json'
+import data from '../data/apple.json'
 import '../css/emoji-mart.css'
 
 const THEMES = ['auto', 'light', 'dark']
