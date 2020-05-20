@@ -58,7 +58,7 @@
   "scripts": {
     "clean": "rm -rf dist/ dist-es/ dist-modern/",
     "build:data": "node scripts/build-data",
-    "build:dist": "npm run build:cjs",
+    "build:dist": "npm run build:cjs && npm run build:es && npm run build:modern",
     "build:cjs": "BABEL_ENV=legacy-cjs babel src --out-dir dist --ignore  '**/__tests__/*'",
     "build:es": "BABEL_ENV=legacy-es babel src --out-dir dist-es --ignore  '**/__tests__/*'",
     "build:modern": "BABEL_ENV=modern babel src --out-dir dist-modern --ignore  '**/__tests__/*'",
